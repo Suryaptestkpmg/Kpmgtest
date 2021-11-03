@@ -1,0 +1,136 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-058b12f51d412b5db",
+                    "InstanceId": "i-0239cf9993a0a9cee",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "test-instance",
+                    "LaunchTime": "2021-10-20T16:12:58+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "Platform": "windows",
+                    "PrivateDnsName": "ip-172-31-26-134.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.26.134",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-54-218-127-191.us-west-2.compute.amazonaws.com",
+                    "PublicIpAddress": "54.218.127.191",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-8c3ab8f4",
+                    "VpcId": "vpc-af2111d7",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2021-10-20T16:12:59+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-064dafb7034892f9f"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-218-127-191.us-west-2.compute.amazonaws.com",
+                                "PublicIp": "54.218.127.191"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2021-10-20T16:12:58+00:00",
+                                "AttachmentId": "eni-attach-03b3ba24c842a355f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-04c54ae0be91fded8"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:c4:25:09:b2:a7",
+                            "NetworkInterfaceId": "eni-01d25d72e436489a9",
+                            "OwnerId": "205770617516",
+                            "PrivateDnsName": "ip-172-31-26-134.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.26.134",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-218-127-191.us-west-2.compute.amazonaws.com",
+                                        "PublicIp": "54.218.127.191"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-26-134.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.26.134"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-8c3ab8f4",
+                            "VpcId": "vpc-af2111d7",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-04c54ae0be91fded8"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Windows",
+                    "UsageOperation": "RunInstances:0002",
+                    "UsageOperationUpdateTime": "2021-10-20T16:12:58+00:00"
+                }
+            ],
+            "OwnerId": "205770617516",
+            "ReservationId": "r-00d255f53ee1a43bc"
+        }
+    ]
+}
